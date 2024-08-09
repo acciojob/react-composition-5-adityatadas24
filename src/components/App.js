@@ -16,9 +16,9 @@ const App = () => {
       <p>Content for {tab1}</p>
 
     <ul>
-        <li onClick={()=>setTabA("Tab A")}>Tab 1</li>
-        <li onClick={()=>setTabA("Tab B")}>Tab 2</li>
-        <li onClick={()=>setTabA("Tab C")}>Tab 3</li>
+        <li onClick={()=>setTabA("Tab A")}>Tab A</li>
+        <li onClick={()=>setTabA("Tab B")}>Tab B</li>
+        <li onClick={()=>setTabA("Tab C")}>Tab C</li>
       </ul>
       <p>Content for {tabA}</p>
     </div>
